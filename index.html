@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cartão David Rodrigues</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #e0e0e0; /* Fundo neutro */
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card {
+      width: 360px;
+      height: 220px;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+      padding: 30px 20px;
+      background: linear-gradient(135deg, #1e3c72, #2a2a2a); /* Gradiente dentro do cartão */
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    .card h1 {
+      font-size: 22px;
+      margin-bottom: 5px;
+      margin-top: 0;
+    }
+
+    .subtitle {
+      font-size: 15px;
+      color: #cccccc;
+      margin-bottom: 25px;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      color: #ffffff;
+    }
+
+    .contact-item img {
+      width: 20px;
+      margin-right: 10px;
+      filter: brightness(0) invert(1); /* Deixa o ícone branco para melhor contraste */
+    }
+
+    a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1 style="margin-bottom: 2px;">DAVID RODRIGUES</h1>
+    <p class="subtitle">Construtor civil</p>
+
+    <div class="contact-item">
+      <img src="icon-phone.png" alt="Telefone" />
+      <span>+351 911 872 518</span>
+    </div>
+  </div>
+
+</body>
+</html>
